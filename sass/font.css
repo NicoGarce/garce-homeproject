@@ -1,0 +1,129 @@
+.taviraj-thin {
+    font-family: "Taviraj", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .taviraj-extralight {
+    font-family: "Taviraj", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .taviraj-light {
+    font-family: "Taviraj", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .taviraj-regular {
+    font-family: "Taviraj", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .taviraj-medium {
+    font-family: "Taviraj", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .taviraj-semibold {
+    font-family: "Taviraj", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .taviraj-bold {
+    font-family: "Taviraj", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .taviraj-extrabold {
+    font-family: "Taviraj", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .taviraj-black {
+    font-family: "Taviraj", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .taviraj-thin-italic {
+    font-family: "Taviraj", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .taviraj-extralight-italic {
+    font-family: "Taviraj", serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .taviraj-light-italic {
+    font-family: "Taviraj", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .taviraj-regular-italic {
+    font-family: "Taviraj", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .taviraj-medium-italic {
+    font-family: "Taviraj", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .taviraj-semibold-italic {
+    font-family: "Taviraj", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .taviraj-bold-italic {
+    font-family: "Taviraj", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .taviraj-extrabold-italic {
+    font-family: "Taviraj", serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .taviraj-black-italic {
+    font-family: "Taviraj", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+/* 100-900 */
+.inter-300 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+} 
+
+.inter-400 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+} 
+
+.inter-600 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}  

@@ -1,0 +1,322 @@
+body {
+    overflow-x: hidden;
+}
+
+.logo{
+    height: 20px;
+}
+
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+}
+
+.navbar-hidden {
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.header {
+    margin-left: 100px;
+}
+
+.service-img-wrapper {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    border-bottom-left-radius: 10px;
+    overflow: hidden;
+}
+
+.service-img {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transform: scale(1.05);
+    border-bottom-left-radius: 10px;
+}
+
+.container {
+    max-width: 100%;
+    padding: 0; 
+    margin: 0; 
+    overflow: hidden; 
+}
+
+.serve-font {
+    font-size: 85px;
+    font-weight: 300;
+}
+
+.plain-text-link {
+    text-decoration: none; /* Removes underline */
+    color: inherit; /* Uses the parent element's text color */
+    /* Additional styling as needed */
+}
+
+
+.market-font {
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.market-img{
+    max-width: 700px; 
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.market-icon{
+    width: 200px;
+    height: auto;
+    clip-path: inset(10% 20% 20% 10%);
+}
+
+.big{
+    width: 500px;
+    height: 60px;
+}
+
+.custom-margin{
+    margin-top: 80px;
+}
+
+.sell-img {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.buy-img{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.years-img{
+    width: 500px;
+}
+
+.strat-img{
+    width: 800px;
+}
+
+.justify{
+    text-align: justify;
+}
+
+.three-logo {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.card-hover {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border: 1px solid transparent;
+}
+  
+.card-hover:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.custom-img-size{
+    width: 150px;
+    height: auto;
+}
+
+.input{
+    width: 100%;
+    height: 80px;
+    border: none;
+    border-bottom: 1px solid gray;
+    background-color: transparent;
+}
+
+.input:focus {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.input-nl{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid gray;
+    background-color: transparent;
+}
+
+.input-nl:focus {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.terms{
+    font-size: 11px;
+
+}
+
+.terms-nl{
+    font-size: 11px;
+}
+
+.contacts{
+    font-size: 17px;
+}
+
+.contact-icon{
+    font-size: 25px;
+}
+
+.foot-logo{
+    width: 90px;
+}
+
+.row-equal-height {
+    display: flex;
+    align-items: stretch; /* Makes columns stretch to fill the container vertically */
+}
+
+.img-fill {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#work-with-us {
+    background: linear-gradient(to right, rgba(22, 22, 22, 0.6) 0%, rgba(26, 26, 26, 0.7) 15%, rgba(0, 0, 0, 0.7) 25%, rgba(61, 61, 61, 0.7) 38%, rgba(138, 138, 138, 0.7) 45%, #e9e9e9 55%, #ffffff 100%), 
+                url('https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/skkve0aqzhkkyiytn92d/work-with-us') no-repeat center center/cover;
+}
+
+div.polaroid {
+    border-radius: 10px;
+    width: 90%;
+    background-color: rgb(243, 243, 243);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+  
+div.text-container {
+    text-align: center;
+    padding: 30px 30px;
+}
+
+.pol-img{
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.pad-top{
+    padding-top: 100px;
+}
+
+.pad-tablet{
+    padding-top: 70px;
+}
+
+.px-custom{
+    padding: 40px;
+
+}
+
+.change{
+    color: white;
+}
+
+@media (max-width: 1200px) {
+    .serve-font {
+        font-size: 70px
+    }
+    .market-font {
+        font-size: 45px;
+    }
+    .market-icon {
+        width: 150px;
+    }
+}
+
+@media (max-width: 992px) {
+    .serve-font {
+        font-size: 55px;
+    }
+    .market-font {
+        font-size: 40px;
+    }
+    .market-icon {
+        width: 100px;
+    }
+    
+    #work-with-us{
+        background: none;
+    }
+    .change{
+        color: black;
+    }
+}
+
+@media (max-width: 768px) {
+    .serve-font {
+        font-size: 50px;
+    }
+    .market-font {
+        font-size: 35px;
+    }
+    .market-icon {
+        width: 70px;
+    }
+    .pad-top {
+        padding-top: 0px;
+    }
+    .px-custom{
+        padding: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .serve-font {
+        font-size: 40px;
+    }
+    .market-font {
+        font-size: 30px;
+    }
+    .market-icon {
+        width: 70px;
+    }
+}
+
+@media (max-width: 991px) { /* Adjust according to your needs */
+    .services .d-lg-block {
+        display: none;
+    }
+    .header {
+        margin-left: 0;
+    }
+    .custom-margin {
+        margin-top: 0;
+    }
+    .sell-img {
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+    .buy-img{
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+}
+@media (max-width: 575.98px) {
+    .col-lg-4.p-3.border-end {
+        border-right: none !important;
+    }
+}
+
